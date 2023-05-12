@@ -19,8 +19,8 @@ public class PlayerController : MonoBehaviour
 
         // UI ‚ğ‰Šú‰»
         score = 0;
-        SetCountText();
-        winText.text = "";
+        //SetCountText();
+        //winText.text = "";
     }
 
     void Update()
@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
             score = score + 1;
 
             // UI ‚Ì•\¦‚ğXV‚µ‚Ü‚·
-            SetCountText();
+            //SetCountText();
         }
     }
 
